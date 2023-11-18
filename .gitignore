@@ -1,0 +1,14 @@
+*.bed
+*.bim
+*.fam
+*.log
+*.map
+*.nosex
+*.nopred
+*.ped
+*.profile
+*.sscore
+genomes
+results
+score_files
+.nextflow
