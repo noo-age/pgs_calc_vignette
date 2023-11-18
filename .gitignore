@@ -8,6 +8,7 @@
 *.ped
 *.profile
 *.sscore
+*.csv
 genomes
 results
 score_files
