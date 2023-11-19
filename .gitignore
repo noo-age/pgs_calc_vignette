@@ -9,6 +9,8 @@
 *.profile
 *.sscore
 *.csv
+*.txt
+*.zip
 genomes
 results
 score_files
