@@ -11,6 +11,8 @@
 *.csv
 *.txt
 *.zip
+*.log
+*.vars
 genomes
 results
 score_files
