@@ -43,7 +43,7 @@ def write_ped_map(rsids, chromosomes, positions, genotypes, output_prefix):
 def main():
     # Check for command line arguments for the input file and output prefix
     if len(sys.argv) < 3:
-        print('Usage: python 23andMe_to_PLINK.py <input_23andMe_file> <output_prefix>')
+        print('Usage: python3 23andMe_to_PLINK.py <input_23andMe_file> <output_prefix>')
         sys.exit(1)
 
     input_file = sys.argv[1]
