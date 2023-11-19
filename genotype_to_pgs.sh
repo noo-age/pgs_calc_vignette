@@ -36,7 +36,10 @@ case $FILETYPE in
         # Assuming BED/BIM/FAM files exist with $OUTPUT_PREFIX, proceed directly to scoring
         ;;
     vcf)
-        plink2 --vcf $INPUT_FILE --make-bed --out $OUTPUT_PREFIX
+        FILTERED_VCF="${INPUT_FILE%.vcf}_filtered.vcf"
+        python3 "filter_vcf.py" $INPUT_FILE
+        # Then use plink2 to convert filtered VCF to bed format
+        plink2 --vcf $FILTERED_VCF --make-bed --out $OUTPUT_PREFIX
         ;;
     *)
         echo "Invalid filetype specified. Valid options are: 23andme, bed, vcf"
