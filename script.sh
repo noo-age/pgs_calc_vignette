@@ -1,3 +1,6 @@
+#bin of generally useful functions
+
+#check target build before using
 nextflow run pgscatalog/pgsc_calc \
     -profile docker \
     --input samplesheet.csv \
