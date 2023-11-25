@@ -13,6 +13,11 @@
 *.zip
 *.log
 *.vars
+*.pgen
+*.psam
+*.zst
+*.log.*
+*.id
 genomes
 results
 score_files
