@@ -1,3 +1,4 @@
+#!/bin/bash
 #bin of generally useful functions
 
 #check target build before using
