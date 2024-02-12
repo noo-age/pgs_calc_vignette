@@ -22,3 +22,4 @@ genomes
 results
 score_files
 .nextflow
+checkVCF.py
