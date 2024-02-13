@@ -36,5 +36,6 @@ bcftools index "$output_vcf"
 
 # Clean up the temporary VCF files
 rm "${temp_files[@]}"
+rm "${temp_files[@]}.csi"
 
 echo "Finished duplicating the sample in the VCF file."
